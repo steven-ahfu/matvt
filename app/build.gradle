@@ -31,6 +31,10 @@ android {
         //If you want to continue even if errors found use following line
         abortOnError false
     }
+    
+    lint {
+        isAbortOnError = false
+    }
 }
 
 dependencies {
